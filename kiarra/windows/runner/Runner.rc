@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "kiarra" "\0"
+            VALUE "FileDescription", "prj_candi_si51" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "kiarra" "\0"
+            VALUE "InternalName", "prj_candi_si51" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "kiarra.exe" "\0"
-            VALUE "ProductName", "kiarra" "\0"
+            VALUE "OriginalFilename", "prj_candi_si51.exe" "\0"
+            VALUE "ProductName", "prj_candi_si51" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

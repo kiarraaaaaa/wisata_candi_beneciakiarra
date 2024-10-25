@@ -27,7 +27,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
-  if (!window.Create(L"kiarra", origin, size)) {
+  if (!window.Create(L"prj_candi_si51", origin, size)) {
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);
