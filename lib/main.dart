@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:wisata_candi1/screens/SignInScreen.dart';
 import 'package:wisata_candi1/screens/detail_screen.dart';
 import 'package:wisata_candi1/screens/profile_screen.dart';
+import 'package:wisata_candi1/screens/HomeScreen.dart';
+import 'package:wisata_candi1/screens/search_screen.dart';
+import 'package:wisata_candi1/screens/SignUpScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +20,7 @@ class MyApp extends StatelessWidget {
       title: 'Wisata Candi',
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
+
           iconTheme: IconThemeData(color: Colors.deepPurple),
           titleTextStyle: TextStyle(
             color: Colors.deepPurple,
@@ -31,7 +35,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: ProfileScreen(),
+      home: HomeScreen(),
       // home: DetailScreen(candi: null,),
     );
   }
