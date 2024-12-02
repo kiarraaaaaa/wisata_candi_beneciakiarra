@@ -8,7 +8,6 @@ import 'package:wisata_candi1/screens/SignUpScreen.dart';
 import 'package:wisata_candi1/screens/Favorite_screen.dart';
 import 'package:wisata_candi1/screens/second_screen.dart';
 import 'package:wisata_candi1/screens/Favorite_screen.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -38,16 +37,16 @@ class MyApp extends StatelessWidget {
       ),
       // home: ProfileScreen(),
       // home: DetailScreen(candi: candiList[0]),
-      // home: SignInScreen(),
-      // home: SignUpScreen(),
+      home: SignInScreen(),
+      //  home: SignUpScreen(),
       //  home: SearchScreen(),
       // home: HomeScreen(),
-      home: MainScreen(),
+      // home: MainScreen(),
       initialRoute: '/',
       routes: {
-        'homescreen':(context)=> const HomeScreen(),
-        '/signin':(context)=> const SignInScreen(),
-        'signup':(context)=> const SignUpScreen(),
+        '/homescreen': (context) => const HomeScreen(),
+        '/signin': (context) => SignInScreen(),
+        '/signup': (context) => SignUpScreen(),
       },
     );
   }
